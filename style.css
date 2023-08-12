@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand&family=Raleway:wght@100;200&display=swap");
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 658px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgb(230, 237, 245);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+.grid1x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+span {
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 18px;
+  color: #888;
+  margin-top: 5px;
+}
+img {
+  width: 200px;
+  border-radius: 50%;
+  align-items: end;
+  transition: 0.3s ease;
+}
+img:hover {
+  width: 350px;
+}
+section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}
